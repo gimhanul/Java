@@ -1,4 +1,4 @@
-package ReferenceType;
+package array;
 
 public class AdvancedFor {
     public static void main(String args[]) {

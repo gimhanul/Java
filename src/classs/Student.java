@@ -10,4 +10,10 @@ public class Student {
         this.dormitoryNumber = dormitoryNumber;
         this.name = name;
     } // ALT + insert 단축키
+
+    public Student(int num, int dormitoryNumber) {
+        this.num = num;
+        this.dormitoryNumber = dormitoryNumber;
+        this.name = "모름";
+    }
 }

@@ -21,4 +21,15 @@ public class Student {
         this("대구소마고", num, dormitoryNumber);
         this.name = "모름";
     }
+
+    public int addAllNumToNum(int ... values) {
+        int sum = num;
+        for(int value:values) {
+            sum += value;
+        }
+        return sum;
+    }
+    public int addNumAndDormitoryNumber() {
+        return num + dormitoryNumber;
+    }
 }

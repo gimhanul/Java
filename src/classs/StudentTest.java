@@ -7,8 +7,12 @@ public class StudentTest {
         Student s3 = new Student(1111, 111, "부산소마고");
 
         int num = s1.addAllNumToNum(1000, 100, 3);
-        System.out.println(num); //2309
-        System.out.println(s1.name);
-        System.out.print(s2.school);
+        System.out.println(num);
+        s1.setClassNubi(100);
+        s2.setClassNubi(100, 200);
+
+        s1.showInfo();
+        s2.showInfo();
+
     } //main 치면 자동완성됨
 }

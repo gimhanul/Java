@@ -6,20 +6,23 @@ public class Student {
     int classNubi;
     String name;
     String school;
+    final String birthday;
+    final String country = "KOREA";
 
-    public Student(String school, int num, int dormitoryNumber) {
+    public Student(String school, int num, int dormitoryNumber, String birthday) {
         this.num = num;
         this.dormitoryNumber = dormitoryNumber;
         this.school = school;
+        this.birthday = birthday;
     }
 
-    public Student(int num, int dormitoryNumber, String name) {
-        this("부산소마고", num, dormitoryNumber);
+    public Student(int num, int dormitoryNumber, String name, String birthday) {
+        this("부산소마고", num, dormitoryNumber, birthday);
         this.name = name;
     } // ALT + insert 단축키
 
-    public Student(int num, int dormitoryNumber) {
-        this("대구소마고", num, dormitoryNumber);
+    public Student(int num, int dormitoryNumber, String birthday) {
+        this("대구소마고", num, dormitoryNumber, birthday);
         this.name = "모름";
     }
 
@@ -45,6 +48,8 @@ public class Student {
     public void showInfo() {
         System.out.println("===================");
         System.out.println("이름: "+name);
+        System.out.println("생일: "+birthday);
+        System.out.println("국적: "+country);
         System.out.println("학번: "+num);
         System.out.println("학교: "+school);
         System.out.println("기숙사 호실: "+dormitoryNumber);

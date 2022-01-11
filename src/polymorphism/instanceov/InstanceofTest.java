@@ -13,7 +13,7 @@ public class InstanceofTest {
 
     public static void method2(Parent parent) {
         Child child = (Child) parent;
-        System.out.println("method2 - Childe로 변환 성공");
+        System.out.println("method2 - Child로 변환 성공");
     }
 
     public static void main(String[] args) {

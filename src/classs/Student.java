@@ -8,6 +8,7 @@ public class Student {
     String school;
     final String birthday;
     final String country = "KOREA";
+    boolean inSchool = false;
 
     public Student(String school, int num, int dormitoryNumber, String birthday) {
         this.num = num;
@@ -45,6 +46,14 @@ public class Student {
         return num + dormitoryNumber;
     }
 
+    public boolean isInSchool() {
+        return inSchool;
+    }
+
+    public void setInSchool(boolean inSchool) {
+        this.inSchool = inSchool;
+    }
+
     public void showInfo() {
         System.out.println("===================");
         System.out.println("이름: "+name);
@@ -54,5 +63,12 @@ public class Student {
         System.out.println("학교: "+school);
         System.out.println("기숙사 호실: "+dormitoryNumber);
         System.out.println("교실 너비: "+classNubi);
+
+        if(isInSchool()) {
+            System.out.println("이 학생은 학교에 있습니다.");
+        }
+        else {
+            System.out.println("이 학생은 학교에 없습니다.");
+        }
     }
 }

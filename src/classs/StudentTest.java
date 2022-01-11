@@ -11,6 +11,9 @@ public class StudentTest {
         s1.setClassNubi(100);
         s2.setClassNubi(100, 200);
 
+        s1.setInSchool(true);
+        s3.setInSchool(true);
+
         s1.showInfo();
         s2.showInfo();
         s3.showInfo();

@@ -1,4 +1,4 @@
-package abstract_class;
+package aabstract.cclass;
 
 public abstract class Phone {
     public String owner;

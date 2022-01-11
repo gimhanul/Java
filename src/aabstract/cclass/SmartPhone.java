@@ -1,4 +1,4 @@
-package abstract_class;
+package aabstract.cclass;
 
 public class SmartPhone extends Phone{
     public SmartPhone(String owner) {

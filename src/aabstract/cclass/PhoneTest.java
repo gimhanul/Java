@@ -1,4 +1,4 @@
-package abstract_class;
+package aabstract.cclass;
 
 public class PhoneTest {
     public static void main(String[] args) {

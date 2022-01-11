@@ -6,7 +6,9 @@ public class DmbCellPhoneTest {
 
         dmbCellPhone.showInfo();
 
-        dmbCellPhone.powerOn();
+        dmbCellPhone.pressPowerButton();
+        dmbCellPhone.bell();
+        dmbCellPhone.setGojang(true);
         dmbCellPhone.bell();
         dmbCellPhone.sendVoice("여보세요");
         dmbCellPhone.receiveVoice("여보아닌데요");
@@ -16,5 +18,6 @@ public class DmbCellPhoneTest {
         dmbCellPhone.turnOnDmb();
         dmbCellPhone.changeChannelDmb(399);
         dmbCellPhone.turnOffDmb();
+        dmbCellPhone.pressPowerButton();
     }
 }

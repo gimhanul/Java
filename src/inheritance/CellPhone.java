@@ -1,19 +1,27 @@
 package inheritance;
 
 public class CellPhone {
+    public static final boolean OFF = false;
+    public static final boolean ON = true;
+
     String model;
     String color;
+    boolean now = OFF;
 
     CellPhone(String model, String color) {
         this.model = model;
         this.color = color;
 
     }
-    void powerOn() {
-        System.out.println("전원을 켭니다.");
-    }
-    void powerOff() {
-        System.out.println("전원을 끕니다.");
+    void pressPowerButton() {
+        if(now == ON) {
+            System.out.println("꺼집니다");
+            now = OFF;
+        }
+        else {
+            System.out.println("켜집니다");
+            now = ON;
+        }
     }
     void bell() {
         System.out.println("띠링띠링");

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.field;
 
 public class Car {
     Tire frontLeftTire = new Tire("앞왼쪽", 6);

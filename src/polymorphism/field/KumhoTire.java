@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.field;
 
 public class KumhoTire extends Tire{
     public KumhoTire(String location, int maxRotation) {

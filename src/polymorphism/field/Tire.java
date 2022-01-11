@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.field;
 
 public class Tire {
     public int maxRotation; //최대 회전수

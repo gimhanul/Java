@@ -1,4 +1,4 @@
-package classs.nestedclass;
+package nested.classs;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package classs.nestedclass;
+package nested.classs;
 
 //바깥 클래스
 public class A {

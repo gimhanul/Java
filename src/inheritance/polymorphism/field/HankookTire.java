@@ -1,4 +1,4 @@
-package polymorphism.field;
+package inheritance.polymorphism.field;
 
 public class HankookTire extends Tire {
     public HankookTire(String location, int maxRotation) {

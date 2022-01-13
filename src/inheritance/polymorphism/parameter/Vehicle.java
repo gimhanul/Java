@@ -1,4 +1,4 @@
-package polymorphism.parameter;
+package inheritance.polymorphism.parameter;
 
 public class Vehicle {
     public void run() {

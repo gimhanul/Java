@@ -1,4 +1,4 @@
-package polymorphism.parameter;
+package inheritance.polymorphism.parameter;
 
 public class DriverTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package polymorphism.iinstanceof;
+package inheritance.polymorphism.iinstanceof;
 
 public class InstanceofTest {
     public static void method1(Parent parent) {

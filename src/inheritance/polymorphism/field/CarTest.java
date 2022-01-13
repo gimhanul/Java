@@ -1,4 +1,4 @@
-package polymorphism.field;
+package inheritance.polymorphism.field;
 
 public class CarTest {
     public static void main(String[] args) {

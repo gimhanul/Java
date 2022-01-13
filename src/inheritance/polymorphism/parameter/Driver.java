@@ -1,4 +1,4 @@
-package polymorphism.parameter;
+package inheritance.polymorphism.parameter;
 
 public class Driver {
     public void drive(Vehicle vehicle) {

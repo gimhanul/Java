@@ -1,4 +1,4 @@
-package anonymous;
+package anonymous.inheritance;
 
 public class Person {
     void wake() {

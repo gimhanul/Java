@@ -1,4 +1,4 @@
-package anonymous;
+package anonymous.inheritance;
 
 public class AnonymousTest {
     public static void main(String[] args) {

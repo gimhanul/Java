@@ -1,6 +1,6 @@
 package exception;
 
-public class ClassCastException {
+public class ClassCastExceptionTest {
     public static void main(String[] args) {
         Dog dog = new Dog();
         changeDog(dog);

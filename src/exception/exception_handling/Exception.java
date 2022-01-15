@@ -1,4 +1,4 @@
-package exception.exception_handing;
+package exception.exception_handling;
 
 public class Exception {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package exception.exception_handing;
-
-import exception.NumberFormatExceptionTest;
+package exception.exception_handling;
 
 public class RuntimeException {
     public static void main(String[] args) {

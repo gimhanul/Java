@@ -1,4 +1,4 @@
-package generic;
+package generic.classs;
 
 public class Plastic extends Material {
     public void doPrinting() {

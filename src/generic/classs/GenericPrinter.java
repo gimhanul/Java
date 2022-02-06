@@ -1,4 +1,4 @@
-package generic;
+package generic.classs;
 
 public class GenericPrinter<T extends Material> {
     private T material;

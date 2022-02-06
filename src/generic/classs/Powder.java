@@ -1,4 +1,4 @@
-package generic;
+package generic.classs;
 
 public class Powder extends Material {
     public void doPrinting() {

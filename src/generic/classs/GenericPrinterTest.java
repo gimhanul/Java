@@ -1,4 +1,4 @@
-package generic;
+package generic.classs;
 
 public class GenericPrinterTest {
     public static void main(String[] args) {
